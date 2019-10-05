@@ -17,7 +17,7 @@ using namespace std;
 /* ------------------------------------ Global Constant Variables ------------------------------------ */
 const string DIVIDER = "-----------------------------------------------------------\n";
 const string STUDENT_INFORMATION[4] = {
-    "Student ID", ": 6278905", "Stduent Name", ": Yap Yuan Xin"};
+    "Student ID", ": 123456", "Stduent Name", ": Jane Doe"};
 
 const string OPTIONS[] = {
     "1)", "Input sensor data",
@@ -105,7 +105,7 @@ void execute2DShapesProgram()
 void printMainMenu()
 {
     printStringArray(STUDENT_INFORMATION, 4, 15);
-    cout << DIVIDER << "Welcome to Main programmainn"
+    cout << DIVIDER << "Welcome to Assn2 program!"
          << endl;
     printStringArray(OPTIONS, sizeof(OPTIONS) / sizeof(string), 7);
 }
